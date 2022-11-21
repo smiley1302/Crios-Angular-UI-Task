@@ -183,6 +183,13 @@ header {
     -webkit-box-shadow: -2px 7px 19px 0px rgba(0, 0, 0, 0.45);
     -moz-box-shadow: -2px 7px 19px 0px rgba(0, 0, 0, 0.45);
     cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $color-primary;
+      border: none;
+    }
   }
 
   .nav-company-logo-section {
@@ -197,6 +204,7 @@ header {
     -webkit-box-shadow: -2px 7px 19px 0px rgb(0 0 0 / 45%);
     -moz-box-shadow: -2px 7px 19px 0px rgba(0, 0, 0, 0.45);
     padding: 2rem;
+    cursor: pointer;
 
     h2 {
       color: $color-primary;
@@ -208,7 +216,6 @@ header {
       font-size: calc(11px + 2 * (100vw - 300px) / 1000)
     }
   }
-
 }
 
 
